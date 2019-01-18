@@ -1,0 +1,3 @@
+export I3_PORTS=/net/local/software/RHEL_6.0_amd64/i3ports/v3
+# export I3_PORTS=/usr/local/icecube/V5/I3_PORTS
+export LD_LIBRARY_PATH=$I3_PORTS/lib/gsl-1.14:$LD_LIBRARY_PATH
